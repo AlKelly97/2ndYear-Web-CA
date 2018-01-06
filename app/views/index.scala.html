@@ -1,0 +1,64 @@
+@main("Products Page") {
+  
+  <p class="lead">Membership Information</p>
+  
+  <table class="table table-bordered table-hover table-condensed">
+  
+  <thead>
+  
+  <!-- The header row-->
+  @for (m<-members){
+
+  
+  <tr>
+  
+  <th>@m.ID</th>
+  
+  <th>@m.Name</th>
+  
+  <th>@m.Address</th>
+  
+  <th>@m.Join-Date</th>
+  
+  <th>@m.Expiry-Date</th>
+  <th> 
+    <a href="@routes.HomeController.deleteMember(m.getID)" class="button-xs btn-danger">
+      <span class="glyphicon glyphicon-trash"></span>
+    </a>
+
+  </th>
+
+  </tr>
+  
+  </thead>
+  
+  <tbody>
+  
+  <!-- Product row(s) -->
+  
+  <tr>
+  
+  <td>1</td>
+  
+  <td>Joe Bloggs</td>
+  
+  <td>2 Tallaght Road</td>
+  
+  <td>21.12.17</td>
+  
+  <td>21.12.18</td>
+  
+  </tr>
+  
+  </tbody>
+  
+  </table>
+
+<p>
+
+  <a href="@routes.HomeController.addMember()">
+    <button class="btn btn-primary">Add a Member</button>
+  </a>
+  </p>
+  }
+}

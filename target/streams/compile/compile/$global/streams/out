@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/play-java-seed/app/controllers/HomeController.java:20:34: identifier expected but `)' found.[0m
+[0m[[0m[31merror[0m] [0m[0mpublic HomeController(FormFactory){[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/play-java-seed/app/controllers/HomeController.java:47:1: `)' expected but `}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/play-java-seed/app/controllers/HomeController.java:47:2: `}' expected but eof found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
